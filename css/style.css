@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../images/body_bg.jpg") no-repeat center top;
+    color: #606060;
+    font-family: "宋体", "黑体";
+    font-size: 12px;
+}
+#header{
+    width: 975px;
+    height: 99px;
+    margin: 0 auto;
+    padding: 15px 0 0 5px;
+}
+/* nav */
+#nav{
+    width: 980px;
+    height: 57px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.navCenter{
+    display: block;
+    float: left;
+    width: 940px;
+    height: 58px;
+    padding-top: 4px;
+    background: url("../images/navBg.jpg") repeat-x;
+}
+.navLeft{
+    display: block;
+    float: left;
+    width: 20px;
+    height: 62px;
+    background: url("../images/navLeft.jpg") no-repeat;
+}
+.navRight{
+    display: block;
+    float: left;
+    width: 20px;
+    height: 62px;
+    background: url("../images/navRight.jpg") no-repeat;
+}
+.navCenter li{
+    float: left;
+    width: 104px;
+    height: 33px;
+    /* padding-top: 5px; */
+    line-height: 33px;
+    background: url("../images/navLine.jpg") no-repeat right center;
+    text-align: center;
+}
+li.noBg{
+    background: none;
+}
+/* link visited 同时出现 */
+.navCenter a:link,.navCenter a:visited{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navCenter a:hover{
+    text-decoration: underline;
+}
+#banner{
+    /* padding-top: 1px; */
+    margin: 0 auto;
+    width: 980px;
+    height: 382px;
+}
+#content{
+    width: 980px;
+    margin: 8px auto 0;
+    padding-top: 9px;
+    background: url("../images/content_bg.jpg") no-repeat #fff;
+    /* 没有高度，可以清除浮动 */
+    overflow: hidden; 
+}
+.conTop{
+    width: 970px;
+    height: 92px;
+    padding-left: 10px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.conTop li{
+    float: left;
+    width: 211px;
+    height: 73px;
+    padding: 10px 12px 0;
+    margin-right: 7px;
+    background: url("../images/li_bg.jpg") no-repeat;
+}
+.conTop p{
+    padding-left: 34px; 
+    line-height: 18px;
+    color: #9d9d9d;
+}
+#conBot{
+    width: 960px;
+    height: 200px;
+    background: url("../images/content_bg1.jpg") repeat-x left bottom #fbfbfb; 
+}
+.conBotL{
+    float: left;
+    position: relative;
+    width: 302px;
+    height: 200px;
+    padding: 10px 10px 0;
+    background: url("../images/ling_bg.jpg") no-repeat right top;
+}
+.conBotL h2{
+    height: 38px;
+}
+.conBotL span{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    display: block;
+    width: 35px;
+    height: 20px;
+}
+.conBotL dl{
+    height: 135px;
+    margin-top: 22px;
+}
+.conBotL dt{
+    float: left;
+    width: 100px;
+    height: 135px;
+}
+.conBotL dl img{
+    width: 94px;
+    height: 80px;
+    padding: 2px;
+    border: 1px solid #d8d8d8;
+}
+.conBotL dd{
+    float: right;
+    width: 189px;
+    height: 135px;
+    line-height: 20px;
+}
+.conBotL a:link, .conBotL a:visited{
+    color: #298c00;
+    text-decoration: none;   
+}
+.conBotL a:hover{
+    text-decoration: underline;
+}
+.conBotC{
+    float: left;
+    width: 388px;
+    height: 200px;
+    padding: 10px 0 10px;
+    background: url("../images/ling_bg.jpg") no-repeat right top;
+}
+.conBotR{
+    float: left;
+    width: 230px;
+    height: 200px;
+    padding: 10px 0 10px;
+}
