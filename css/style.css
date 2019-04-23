@@ -99,19 +99,19 @@ li.noBg{
     color: #9d9d9d;
 }
 #conBot{
-    width: 960px;
+    width: 980px;
     height: 200px;
     background: url("../images/content_bg1.jpg") repeat-x left bottom #fbfbfb; 
 }
 .conBotL{
     float: left;
-    position: relative;
     width: 302px;
     height: 200px;
     padding: 10px 10px 0;
     background: url("../images/ling_bg.jpg") no-repeat right top;
 }
 .conBotL h2{
+    position: relative;
     height: 38px;
 }
 .conBotL span{
@@ -153,13 +153,206 @@ li.noBg{
 .conBotC{
     float: left;
     width: 388px;
-    height: 200px;
-    padding: 10px 0 10px;
+    height: 199px;
+    padding: 10px 10px 0;
     background: url("../images/ling_bg.jpg") no-repeat right top;
+}
+.conBotC h2{
+    position: relative;
+    height: 38px;
+}
+.conBotC span{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 35px;
+    height: 20px;
+
+}
+.conBotC ul{
+    width: 388px;
+    height: 125px;
+    margin-top: 22px;
+}
+.conBotC li{
+    float: left;
+    width: 120px;
+    height: 125px;
+    margin-right: 12px; 
+}
+.conBotC .noMargin{
+    margin: 0;  
+}
+.one{
+    width: 92px;
+}
+.one img{
+    width: 114px;
+    height: 88px;
+    border: 1px solid #e0e0e0;
+}
+.two{
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
 }
 .conBotR{
     float: left;
     width: 230px;
-    height: 200px;
-    padding: 10px 0 10px;
+    height: 100px;
+    padding: 10px 10px 0;
+}
+.conBotR p{
+    margin-top: 22px;
+    line-height: 23px; 
+}
+
+.botNav{
+    width: 980px;
+    height: 35px;
+    margin: 10px auto 1px;
+    background:url("../images/nav_bg.jpg");
+    line-height: 35px;
+    text-align: center;
+}
+.botNav a:link ,.botNav a:visited{
+    color: #fff;
+}
+.botNav span{
+    margin: 0 10px;
+}
+.footer{
+    width: 100%;
+    height: 87px;
+    background: url("../images/bot_bg.jpg") repeat-x;
+}
+.foot{
+    position: relative;
+    width: 980px;
+    height: 70px;
+    margin: 0 auto;
+    padding-top: 17px;
+    line-height: 23px;
+}
+.foot img{
+    position: absolute;
+    right: 5px;
+    top: 17px;   
+}
+
+/* list页面 */
+#listWrap{
+    width: 960px;
+    margin: 8px auto 0;
+    padding: 9px 10px 0;
+    background: url("../images/content_bg.jpg") no-repeat #fff;
+    /* 没有高度，可以清除浮动 */
+    overflow: hidden; 
+}
+.listWrapL{
+    float: left;
+    width: 214px;
+}
+.listWrapL h2{
+    height: 56px;
+    background: url("../images/tit_bg8.jpg") no-repeat;
+    text-indent: -999px;
+}
+.listWrapL ul{
+    width:198px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    background-color: #f4f4f4;
+}
+.listWrapL li{
+    height: 32px;
+    padding-left: 11px;
+    line-height: 32px;
+    background: url("../images/line_bg1.jpg") no-repeat left bottom;
+}
+.listWrapL li a{
+    padding-left: 10px;
+    background: url("../images/3.jpg") no-repeat left center;
+}
+.listWrapL .contact{
+    height: 56px;
+    margin-top: 13px;
+    background: url("../images/tit_bg9.jpg") no-repeat;
+    text-indent: -999px;
+}
+.listWrapL .bot{
+    width: 200px;
+    height: 20px;
+    margin: 0 auto;
+    background: url("../images/bot_bg1.jpg") no-repeat;
+}
+.listWrapL .box{
+    width:174px;
+    height: 120px;
+    margin: 0 auto;
+    padding: 0 12px;
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    background-color: #f4f4f4;
+    line-height: 20px;
+}
+.listWrapR{
+    float: right;
+    width: 734px;
+}
+.listWrapR h3{
+    position: relative;
+    height: 31px;
+    padding: 19px 0 0 46px;
+    background: url("../images/tit_bg10.jpg") no-repeat;
+    font-size: 14px;
+}
+.listWrapR span{
+    position: absolute;
+    right: 26px;
+    top: 20px;
+    font-size: 12px;
+    /* font-weight: normal; */
+}
+.listWrapR .box{
+    padding: 0 16px;
+}
+.listWrapR dl{
+    height: 37px;
+    padding-top: 8px;
+    background: url("../images/borter_bg.jpg") repeat-x bottom left ;
+    line-height: 37px;
+}
+.listWrapR dt{
+    float: left;
+    width: 540px;
+    height: 37px;
+    padding-left: 10px;
+    background: url("../images/dot_bg.jpg") no-repeat left center;
+}
+.listWrapR dd{
+    float: right;
+    width: 80px;
+    height: 37px;
+}
+.pageList{
+    height: 68px;
+    line-height: 68px;
+    text-align: center;
+}
+
+/* news */
+h4{
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+}
+.listWrapR p{
+    padding-bottom: 20px;
+    line-height: 20px;
+    text-indent:  2em;
 }
